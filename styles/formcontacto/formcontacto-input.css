@@ -1,0 +1,14 @@
+.formcontacto__input{
+    width: 100%;
+    height: 3rem;
+    margin-top: 1.5rem;
+    border-color: #FFFFFF;
+    border-radius: 4px;
+    
+}
+
+.formcontacto__input:focus{
+    border-bottom-color: blue;
+    outline: none;
+}
+

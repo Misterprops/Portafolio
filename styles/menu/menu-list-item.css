@@ -1,0 +1,8 @@
+@media screen and (min-width:1024px) {
+    .menu__list__item__contacto{
+        display: none;
+    }
+    .menu__list__item:last-child{
+        font-weight: bold;
+    }
+}

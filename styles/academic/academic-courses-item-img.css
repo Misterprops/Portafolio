@@ -1,0 +1,17 @@
+.academic__courses__item__img{
+    background-color: var(--cor-de-skill);
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.academic__courses__item__img img{
+    height: 60%;
+}
+
+@media screen and (max-width:1024px) {
+    .academic__courses__item__img img{
+        height: 15vh;
+    }
+}

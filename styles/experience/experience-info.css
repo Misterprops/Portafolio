@@ -1,0 +1,7 @@
+@media screen and (min-width:1024px) {
+    .experience__info{
+        margin-left: 5%;
+        margin-right: 10%;
+        width: 30%;
+    }
+}

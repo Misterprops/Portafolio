@@ -1,0 +1,16 @@
+.academic__courses{
+    padding-bottom: 1.5rem;
+}
+
+@media screen and (min-width:768px){
+    .academic__courses{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .academic__courses{
+        height: 75%;
+    }
+}

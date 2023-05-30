@@ -1,0 +1,28 @@
+.hobbies__box{
+    background-color: var(--cor-de-skill);
+    width: 40%;
+    margin-bottom:1.5rem;
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.hobbies__box ul{
+    padding-left: 1rem;
+}
+
+@media screen and (min-width:768px){
+    .hobbies__box{
+        width: 20%;
+        margin: 1.5rem 5%;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .hobbies__box{
+        width: 13%;
+        height: 8rem;
+        margin: auto;
+        display: flex;
+        align-items: end;
+    }
+}

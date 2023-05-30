@@ -1,0 +1,6 @@
+@media screen and (min-width:1024px) {
+    .academic__courses__list{
+        height: 90%;
+        padding-left: 0;
+    }
+}

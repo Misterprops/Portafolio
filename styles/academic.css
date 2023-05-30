@@ -1,0 +1,11 @@
+.academic{
+    background-color: var(--cor-de-seccion);
+}
+
+@media screen and (min-width: 1024px) {
+    .academic{
+        height: 50vh;
+        min-height: 20rem;
+        max-height: 40rem;
+    }
+}

@@ -1,0 +1,12 @@
+.menu{
+    display: flex;
+    margin: 0 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:1024px){
+    .menu nav{
+        width: 60%
+    }
+}

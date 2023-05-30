@@ -1,0 +1,9 @@
+.formcontacto__img{
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .formcontacto__img{
+        display: inline-block;
+    }
+}
