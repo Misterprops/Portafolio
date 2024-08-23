@@ -32,6 +32,9 @@ btn.addEventListener("click", function() {
         inputs.email.setCustomValidity(errores.email.tamanho);
         inputs.email.reportValidity();
     }
+    console.log(inputs.asunto.value)
+    console.log(document.getElementById("mensagem").value)
+    window.open(`mailto:anca.mister@gmail.com?subject=${inputs.asunto.value}&body=${'Mucho gusto, soy/somos: ' + nombre + '%0D%0A%0D%0A' + document.getElementById("mensagem").value}`);
 });
 
 function validar (elemento, tipo, validacion){
